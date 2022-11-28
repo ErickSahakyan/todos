@@ -1,0 +1,90 @@
+.App {
+	text-align: center;
+	margin: auto;
+	width: 350px;
+	background-color: #ccc;
+  }
+  .form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -20px;
+	margin-bottom: 20px;
+  }
+  .form__input {
+	width: 160px;
+	height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+  }
+  
+  .form__button {
+	background-color: #ccc;
+	height: 36px;
+	font-size: 15px;
+	font-weight: bold;
+  }
+  
+  .todos {
+	font-size: 30px;
+	font-weight: bold;
+  }
+  
+  .list {
+	display: grid;
+  }
+  
+  .checkbox {
+	float: left;
+	margin-left: 70px;
+  }
+  
+  .list__item {
+	margin-bottom: 15px;
+  }
+  
+  .text {
+	float: center;
+	font-weight: bold;
+  }
+  
+  .button {
+	background-color: #ccc;
+	margin-right: 70px;
+	float: right;
+	font-weight: bold;
+  }
+  
+  .footer__text {
+	font-weight: bold;
+  }
+  
+  .footer__button {
+	background-color: #ccc;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .button:hover {
+	background-color: rgb(0, 8, 83);
+	color: #fff;
+  }
+  
+  .footer__button:hover {
+	background-color: rgb(0, 8, 83);
+	color: #fff;
+  }
+  
+  .form__button:hover {
+	background-color: rgb(0, 8, 83);
+	color: #fff;
+  }
+  
+  .form__input:hover {
+	background-color: #ccc;
+	color: #111;
+  }
+  
